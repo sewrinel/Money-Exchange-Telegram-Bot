@@ -4,6 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from .exchange_rate import currencies_dict, currency_rate
 from .calculation import purchase_price, cash_price
 import jdatetime
+import re  # to specify the value/amount that the client types
 
 
 
